@@ -10,7 +10,7 @@ browser-compat: api.BiquadFilterNode.Q
 
 The `Q` property of the {{ domxref("BiquadFilterNode") }} interface is an [a-rate](/en-US/docs/Web/API/AudioParam#a-rate) {{domxref("AudioParam")}}, a double representing a [Q factor](https://en.wikipedia.org/wiki/Q_factor), or _quality factor_.
 
-It is a dimensionless value with a default value of `1` and a nominal range of `0.0001` to `1000`.
+For lowpass and highpass filters, the value is the gain at the cutoff frequency in dB. For bandpass, notch, allpass, and peaking filters, it is a dimensionless value with a default value of `1` and a nominal range of `0.0001` to `1000`.
 
 ## Value
 
